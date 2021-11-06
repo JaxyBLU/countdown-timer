@@ -1,0 +1,43 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	min-height: 100vh;
+	background-image: url("../Images/holiday.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#title_top{
+	font-size: 4rem;
+	margin-top: -25rem;
+}
+
+.mother_container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.bixtext{
+	font-size: 6rem;
+	margin: 0 4rem;
+	line-height: 1;
+}
+
+.ctdown{
+	text-align: center;
+}
+
+.ctdown span{
+	font-size: 1.5rem;
+}
